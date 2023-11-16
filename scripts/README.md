@@ -1,11 +1,9 @@
-# eZone--mgws--2310_UCI
+# eZone--mgws--23Q2Q3
 
-Lecture on Monogramming 2023
+Monogramming Workshop 23Q2/23Q3
 
+Note: URL = https://github.com/hohno-46466/eZone--mgws--23Q2Q3
 
-
-Note: URL = https://github.com/hohno-46466/eZone--mgws--2310_UCI
-
-Note: URL = git@github.com:hohno-46466/eZone--mgws--2310_UCI.git
+Note: URL = git@github.com:hohno-46466/eZone--mgws--23Q2Q3.git
 
 -EOF-

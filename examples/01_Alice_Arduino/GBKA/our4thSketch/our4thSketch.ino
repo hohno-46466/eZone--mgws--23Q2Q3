@@ -8,7 +8,7 @@ int val1 = 0, val2 = 0, val3 = 0;
 
 void setup() {
   Serial.begin(57600);
-  Serial.print("#debug:\tHello, Halifax! A message from GBKA.\n");
+  Serial.print("#debug:\tHello, Kanazawa! This is a message from GBKA.\n");
 }
 
 void loop() {
