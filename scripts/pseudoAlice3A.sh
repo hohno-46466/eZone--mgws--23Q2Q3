@@ -15,7 +15,7 @@ Pr=512; Pg=512; Pb=512
 Xr=0; Xg=0; Xb=0
 
 while [ 1 ]; do
-  cnt=$(expr $cnt + 100 + $(jot -r 1 -5 5))
+  cnt=$(expr $cnt + 200 + $(jot -r 1 -5 5))
   nnn=$(expr $nnn + 10)
 
   Sr=$(jot -r 1 0 7);  if [ $Sr -le 2 ]; then Sr=0; else Sr=1; fi
@@ -34,5 +34,5 @@ while [ 1 ]; do
   Xb=$(echo $nnn | awk '{printf "%8.5f\n",cos($1/180*3.1416)*cos($1/180*3.1416);fflush()}')
 
   echo "$key\t$cnt\t$Sr\t$Pr\t$Xr\t$Sg\t$Pg\t$Xg\t$Sb\t$Pb\t$Xb"
-  sleep 0.1 
+  sleep 0.2 
 done
