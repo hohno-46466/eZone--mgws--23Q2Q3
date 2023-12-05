@@ -18,12 +18,13 @@
 // -----------------------------------------------------------------------------
 
 // Number of guages
-int Nguages = 3;            // ゲージの数
+int Nguages = 6;            // ゲージの数
 
 // -----------------------------------------------------------------------------
 
 // MQTT broker's FQDN (hostname)
 final String MQTThost = "mqtt://broker.hivemq.com";
+// final String MQTThost = "mqtt://localhost";
 
 // MQTT topic
 final String MQTTtopic = "mgwsTEST-Q999/POTdemo3"; // MGWS2308DAL/POTdemo3 = Monogramming Workshop 2023-08 at Dalhousie / Potentiometer demo 3
@@ -92,7 +93,7 @@ void settings() {
 //   String[] fontList = PFont.list();
 //   for (int i = 0; i < fontList.length; i++) {
 //     println(fontList[i]);
-//   }
+//   }:
 //   noLoop();
 //}
 
